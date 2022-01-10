@@ -5,11 +5,14 @@ function reverse(str){
         return "Hmm thats not good"
     }
     const backward =[];
-    const totalItems = str.length -1;
-    for (let i = totalItems;i>=0;i--){
-        backward.push(str[i]);
+    const totalItems = str.length -1 ;
+    console.log(totalItems);
+
+     for (let i = totalItems;i>=0;i--){
+         backward.push(str[i]);
+     }
     }
-    console.log(backward);
-    return backward.join('');
-}
-console.log(reverse(sentance));
+     console.log(backward);
+     return backward.join('');
+ 
+ console.log(reverse(sentance));
